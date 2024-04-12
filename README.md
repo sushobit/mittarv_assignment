@@ -1,7 +1,7 @@
 # Mitt Arv Assignment
 ## Build a full stack Recipe App using React.js,Node.js
--authentication system using jwt
--pagination and Search functions
+- authentication system using jwt
+- pagination and Search functions
 
 
 ## Video
