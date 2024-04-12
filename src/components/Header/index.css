@@ -1,0 +1,30 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: cursive;
+}
+.logout-button {
+    background-color: rgb(236, 46, 46);
+    color: white;
+    border-radius: 20px;
+    width: 10%;
+    border-width: 0px;
+}
+.logout-button:hover {
+    background-color: rgb(79, 7, 7);
+    font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logout-button {
+        width: 50%;
+        margin-top: 6px;
+    }
+}

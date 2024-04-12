@@ -1,0 +1,9 @@
+.product {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  .images {
+    height: 200px;
+    width: 200px;
+  }

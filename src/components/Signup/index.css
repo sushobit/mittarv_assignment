@@ -1,0 +1,56 @@
+
+  .signup-container {
+    background-image: url('./food-4k.jpg');
+    background-size: cover;
+    height: 100vh;
+    animation: fadeIn 1s ease-in-out forwards; 
+}
+  .mid-container {
+    background-color: white;
+    opacity: 0.7;
+    padding: 50px;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+  }
+  
+  .mid-container:hover {
+    opacity: 0.9;
+  }
+ 
+  .signup-button {
+    background-color: rgba(7, 129, 215, 0.825);
+    color: white;
+    font-family: cursive;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 0px;
+    border-color: transparent;
+  }
+
+  .input-design {
+    font-family: cursive;
+  }
+
+  /* Media Query for Responsive Design */
+  @media screen and (min-width: 768px) {
+    .sign-up-container {
+      max-width: 600px;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

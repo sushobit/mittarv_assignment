@@ -1,0 +1,15 @@
+.maincontainer {
+    background: radial-gradient(circle, #1258a2, #bfbfcb);
+    height: max-content;
+    padding: 8PX; 
+    animation: fadeIn 1s ease-in-out forwards; 
+  }
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
